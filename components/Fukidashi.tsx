@@ -1,0 +1,41 @@
+'use client'
+
+export default function Fukidashi({
+  nowUserId,
+  content,
+  username,
+  postUserId
+}: {
+  nowUserId: number|undefined;
+  content: string;
+  username: string| number| null |undefined;
+  postUserId: number|undefined;
+}) {
+  const isMe = nowUserId === postUserId;
+  const hasUsername = username && username !== null;
+
+  return (
+    <div className="w-full"> 
+      <div className={`flex ${isMe ? 'justify-end' : 'justify-start'} mb-1`}>
+        <div className="flex flex-col max-w-[75%]">
+          {!isMe && hasUsername && (
+            <span className="text-[10px] text-slate-100 ml-1 leading-none mb-0.5">
+              {username}
+            </span>
+          )}
+
+          <div className={`
+            p-2 rounded-lg w-fit break-words
+            ${isMe 
+              ? 'bg-green-600 text-white' 
+              : 'bg-white text-black border border-gray-200'}
+          `}>
+            <p className="m-0 p-0 text-sm leading-normal">
+              {content.trim()}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

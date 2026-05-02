@@ -1,35 +1,17 @@
-import { openDB } from 'idb';
+import Dexie, { type EntityTable } from 'dexie';
+import { Message } from './types';
+import { Persona } from './types';
 
-type Message = {
-  id?: number;
-  userName: string;
-  text: string;
-  timestamp: number;
+// データベースの初期化
+const db = new Dexie('TagesetsuDB') as Dexie & {
+  personas: EntityTable<Persona, 'id'>;
+  messages: EntityTable<Message, 'id'>;
 };
 
-const dbPromise = typeof window !== 'undefined' 
-  ? openDB('tagesetsu-db', 1, {
-      upgrade(db) {
-        if (!db.objectStoreNames.contains('messages')) {
-          db.createObjectStore('messages', { keyPath: 'id', autoIncrement: true });
-        }
-      },
-    })
-  : null; // サーバーサイドでは何もしない
+// スキーマの定義 (インデックスを貼りたい項目を並べる)
+db.version(2).stores({
+  personas: '++id, name',
+  messages: '++id, senderId, timestamp'
+});
 
-export const saveMessage = async (userName: string, text: string) => {
-  if (!dbPromise) return;
-  const db = await dbPromise;
-
-  await db.add('messages', {
-    userName: userName, // お前が言ってた「毎回名前出す」作戦
-    text: text,
-    timestamp: Date.now(),
-  });
-};
-
-export const getAllMessages = async () => {
-  if (!dbPromise) return;
-  const db = await dbPromise;
-  return await db.getAll('messages') as Message[];
-};
+export { db };
