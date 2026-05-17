@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="machibari.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.71713664"
+     inkscape:cx="-48.805204"
+     inkscape:cy="536.16002"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs1" />
+  <path
+     sodipodi:type="star"
+     style="fill:#b2b2b2;fill-opacity:1;stroke:#211f7c;stroke-width:6.31887584;stroke-linejoin:round;stroke-dasharray:none"
+     id="path3"
+     inkscape:flatsided="false"
+     sodipodi:sides="3"
+     sodipodi:cx="97.401245"
+     sodipodi:cy="123.96522"
+     sodipodi:r1="66.788055"
+     sodipodi:r2="33.958897"
+     sodipodi:arg1="1.5873694"
+     sodipodi:arg2="2.6345669"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="M 96.294412,190.7441 67.714629,140.45496 40.122452,89.617231 l 57.841569,0.393754 57.822849,1.523336 -29.26178,49.895389 z"
+     inkscape:transform-center-x="-5.3975734"
+     inkscape:transform-center-y="16.012344"
+     transform="matrix(0.13646224,-0.06812995,0.77720346,1.2637475,1.4064047,-28.908597)" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#f7599d;stroke:#211f7c;stroke-width:1;stroke-linejoin:round;fill-opacity:1;stroke-dasharray:none"
+       id="path1"
+       cx="81.352173"
+       cy="75.080124"
+       r="23.796894" />
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#211f7c;stroke-width:0;stroke-linejoin:round;stroke-dasharray:none"
+       id="path2"
+       cx="72.128578"
+       cy="67.332298"
+       r="6.4565215" />
+  </g>
+</svg>
