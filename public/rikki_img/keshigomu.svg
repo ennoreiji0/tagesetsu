@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="94.689651mm"
+   height="115.95316mm"
+   viewBox="0 0 94.689651 115.95316"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.69753788"
-     inkscape:cx="397.11105"
-     inkscape:cy="448.00434"
+     inkscape:cx="163.43198"
+     inkscape:cy="95.335324"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -35,16 +35,17 @@
   <defs
      id="defs1" />
   <rect
-     style="fill:#ededed;fill-opacity:1;stroke:#211f7c;stroke-width:1;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:#ededed;fill-opacity:1;stroke:#211f7c;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
      id="rect2"
      width="89.022911"
      height="18.091881"
-     x="64.54026"
-     y="190.85062" />
+     x="2.8333626"
+     y="97.361282" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-61.706898,-93.489333)">
     <path
        style="fill:#ededed;fill-opacity:1;stroke:#211f7c;stroke-width:1.0587;stroke-dasharray:none;stroke-opacity:1"
        id="path1"
@@ -59,7 +60,7 @@
        sodipodi:arc-type="arc"
        d="M 154.2001,126.98938 A 45.298233,32.970646 0 0 1 109.0803,159.95977 45.298233,32.970646 0 0 1 63.605036,127.24913 45.298233,32.970646 0 0 1 108.36657,94.021036 45.298233,32.970646 0 0 1 154.19447,126.4699" />
     <rect
-       style="fill:#f20b55;stroke:#211f7c;stroke-width:1;stroke-opacity:0.97254902;fill-opacity:1;stroke-dasharray:none"
+       style="fill:#f20b55;fill-opacity:1;stroke:#211f7c;stroke-width:1;stroke-dasharray:none;stroke-opacity:0.972549"
        id="rect1"
        width="93.689651"
        height="72.068962"

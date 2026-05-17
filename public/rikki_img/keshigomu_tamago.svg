@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="95.584641mm"
+   height="43.11414mm"
+   viewBox="0 0 95.584641 43.11414"
    version="1.1"
    id="svg1"
    xml:space="preserve"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.4342733"
-     inkscape:cx="274.35497"
-     inkscape:cy="424.25666"
+     inkscape:cx="74.602239"
+     inkscape:cy="97.261798"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -34,7 +34,7 @@
      inkscape:current-layer="svg1" /><defs
      id="defs1" /><g
      id="g16"
-     transform="matrix(1.1768262,0,0,1.2177461,-17.819399,-27.684715)"><rect
+     transform="matrix(1.1768262,0,0,1.2177461,-70.800595,-114.26359)"><rect
        style="fill:#eeeeee;fill-opacity:1;stroke:#211f7c;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect2"
        width="60.125652"
@@ -83,14 +83,15 @@
        id="path16" /></g><path
      id="path2"
      style="fill:#fee600;fill-opacity:1;stroke:#211f7c;stroke-width:1.12876;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-     d="m 100.76748,87.199513 a 47.221728,25.817459 0 0 0 -47.221904,25.817367 47.221728,25.817459 0 0 0 0.0073,0.44265 v 14.47016 h 0.02731 a 47.302435,17.732151 0 0 1 47.187344,-16.49402 47.302435,17.732151 0 0 1 47.18693,16.49402 h 0.047 v -14.7938 h -0.0128 a 47.221728,25.817459 0 0 0 4.3e-4,-0.11901 47.221728,25.817459 0 0 0 -47.2215,-25.817367 z" /><g
+     d="m 47.786284,0.620634 a 47.221728,25.817459 0 0 0 -47.22190401,25.817367 47.221728,25.817459 0 0 0 0.0073,0.44265 v 14.47016 h 0.02731 a 47.302435,17.732151 0 0 1 47.18734401,-16.49402 47.302435,17.732151 0 0 1 47.18693,16.49402 h 0.047 v -14.7938 h -0.0128 a 47.221728,25.817459 0 0 0 4.3e-4,-0.11901 47.221728,25.817459 0 0 0 -47.2215,-25.817367 z" /><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1" /><rect
+     id="layer1"
+     transform="translate(-52.981196,-86.578879)" /><rect
      style="fill:#000000;fill-opacity:1;stroke:#211f7c;stroke-width:1.07178;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      id="rect16"
      width="13.345245"
      height="42.042358"
-     x="94.100891"
-     y="87.114769"
+     x="41.119694"
+     y="0.53588998"
      ry="0" /></svg>
